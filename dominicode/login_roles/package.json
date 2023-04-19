@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "oldbuild": "rimraf dist && tsc",
+    "build": "rimraf dist && tsc",
     "newbuild": "rimraf dist",
-    "build": "rimraf dist && mkdir dist && cp -R ./src/* dist",
+    "funciobuild": "rimraf dist && mkdir dist && cp -R ./src/* dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
