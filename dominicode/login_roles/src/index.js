@@ -10,7 +10,7 @@ app.listen(PORT, () => {
 
 // Routes
 app.get("/", (req, res) => {
-  res.send("Hey this is my API running 🥳");
+  res.send("Hey this is my API running 🐸🐸🐼");
 });
 
 app.get("/about", (req, res) => {
