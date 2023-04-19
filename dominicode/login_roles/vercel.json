@@ -2,6 +2,7 @@
   "version": 2,
   "outputDirectory": "dist",
   "public": true,
+  "buildCommand": "rimraf dist && tsc",
   "builds": [
     {
       "src": "dist/index.js",
