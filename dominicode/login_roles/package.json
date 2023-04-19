@@ -6,7 +6,7 @@
   "scripts": {
     "oldbuild": "rimraf dist && tsc",
     "newbuild": "rimraf dist",
-    "build": "mkdir dist && cp -R ./src/* dist",
+    "build": "rimraf dist && mkdir dist && cp -R ./src/* dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
