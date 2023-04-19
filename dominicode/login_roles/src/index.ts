@@ -15,7 +15,7 @@ app.use(express.json());
 
 // Routes
 app.get("/", (req: Request, res: Response) => {
-  res.send("P001_pagina inicio");
+  res.send("P001_pagina inicio 😎😋😋");
 });
 
 app.get("/test", (_req: Request, res: Response) => {
