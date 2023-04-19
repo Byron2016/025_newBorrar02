@@ -1,6 +1,7 @@
 {
   "version": 2,
   "outputDirectory": "dist",
+  "public": true,
   "builds": [
     {
       "src": "dist/index.js",
